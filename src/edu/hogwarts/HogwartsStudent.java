@@ -18,6 +18,13 @@ public class HogwartsStudent extends Student implements HogwartsPerson {
         this.prefect = prefect;
     }
 
+    public HogwartsStudent() {
+        super();
+        this.house = new House();
+        this.prefect = false;
+        this.teams = new String[0];
+    }
+
     public House getHouse() {
         return house;
     }
