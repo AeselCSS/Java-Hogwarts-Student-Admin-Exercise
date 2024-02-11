@@ -1,11 +1,13 @@
-package edu.hogwarts;
+package edu.generic;
+
+import java.time.LocalDate;
 
 public class Student extends Person {
     private int enrollmentYear;
     private int graduationYear;
     private Boolean graduated;
 
-    public Student(){
+    public Student() {
         super();
     }
 
@@ -15,22 +17,23 @@ public class Student extends Person {
         this.graduated = graduated;
     }
 
-    public Student(String firstName, String middleName, String lastName, int enrollmentYear, int graduationYear, Boolean graduated) {
-        super(firstName, middleName, lastName);
+    public Student(String fullName, LocalDate dateOfBirth, int enrollmentYear, int graduationYear, Boolean graduated) {
+        super(fullName, dateOfBirth);
         this.enrollmentYear = enrollmentYear;
         this.graduationYear = graduationYear;
         this.graduated = graduated;
     }
 
-    public Student(String firstName, String lastName, int enrollmentYear, int graduationYear, Boolean graduated) {
-        super(firstName, lastName);
+
+    public Student(String firstName, String middleName, String lastName, LocalDate dateOfBirth, int enrollmentYear, int graduationYear, Boolean graduated) {
+        super(firstName, middleName, lastName, dateOfBirth);
         this.enrollmentYear = enrollmentYear;
         this.graduationYear = graduationYear;
         this.graduated = graduated;
     }
 
-    public Student(String fullName, int enrollmentYear, int graduationYear, Boolean graduated) {
-        super(fullName);
+    public Student(String firstName, String lastName, LocalDate dateOfBirth, int enrollmentYear, int graduationYear, Boolean graduated) {
+        super(firstName, lastName, dateOfBirth);
         this.enrollmentYear = enrollmentYear;
         this.graduationYear = graduationYear;
         this.graduated = graduated;
@@ -63,6 +66,7 @@ public class Student extends Person {
     @Override
     public String toString() {
         return "Student {\n" +
+                "id=" + getId() + "\n" +
                 "fullName=" + getFullName() + "\n" +
                 "enrollmentYear=" + enrollmentYear + "\n" +
                 "graduationYear=" + graduationYear + "\n" +

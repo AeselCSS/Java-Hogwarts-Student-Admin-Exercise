@@ -1,4 +1,4 @@
-package edu.hogwarts;
+package edu.hogwarts.model;
 
 public abstract class TeachingMaterial {
     private String name;

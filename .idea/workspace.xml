@@ -4,26 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4729ef0-07db-4b90-9531-c4a8c14a5a3f" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/HogwartsPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/HogwartsStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/HogwartsTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/TeachingMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/TextBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/Tool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/Wand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/YearGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/empType.java" afterDir="false" />
+    <list default="true" id="d4729ef0-07db-4b90-9531-c4a8c14a5a3f" name="Changes" comment="added empty constructor">
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/application/InitApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/application/InitData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/EmpType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/HogwartsPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/HogwartsStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/ui/FilterByHouseOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/ui/FilterByRoleOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/ui/SortAndFilterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/ui/SortByOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/ui/SortDirectionOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/ui/StudentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/ui/TeacherHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/ui/UserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/hogwarts/ui/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Hogwarts-Student-Admin-Exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Hogwarts-Student-Admin-Exercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/HogwartsPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/HogwartsStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/HogwartsTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/HogwartsTeacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/generic/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/generic/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/generic/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/TeachingMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/TeachingMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/TextBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/TextBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/Tool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/Wand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/YearGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/hogwarts/model/YearGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/hogwarts/empType.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +50,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -54,6 +73,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Application.executor": "Run",
+    "Application.HogwartsStudentAdmin.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -63,9 +87,24 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "inlay.hints",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="HogwartsStudentAdmin" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="edu.hogwarts.application.Application" />
+      <module name="Java-Hogwarts-Student-Admin-Exercise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,7 +114,11 @@
       <option name="presentableId" value="Default" />
       <updated>1706993388253</updated>
       <workItem from="1706993389882" duration="10000" />
-      <workItem from="1706993410498" duration="12754000" />
+      <workItem from="1706993410498" duration="13836000" />
+      <workItem from="1707070411025" duration="13000" />
+      <workItem from="1707118940218" duration="2235000" />
+      <workItem from="1707127590515" duration="66000" />
+      <workItem from="1707212989848" duration="49189000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -85,7 +128,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706993692115</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="deleted Main.java">
+      <option name="closed" value="true" />
+      <created>1707066364378</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707066364378</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finished exercise">
+      <option name="closed" value="true" />
+      <created>1707066393719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707066393719</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added empty constructor">
+      <option name="closed" value="true" />
+      <created>1707070324460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707070324460</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +160,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="deleted Main.java" />
+    <MESSAGE value="finished exercise" />
+    <MESSAGE value="added empty constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="added empty constructor" />
   </component>
 </project>

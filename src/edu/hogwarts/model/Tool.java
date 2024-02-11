@@ -1,6 +1,6 @@
-package edu.hogwarts;
+package edu.hogwarts.model;
 
-public class Tool extends TeachingMaterial{
+public class Tool extends TeachingMaterial {
     private String name;
     private String description;
 

@@ -1,4 +1,6 @@
-package edu.hogwarts;
+package edu.hogwarts.model;
+
+import edu.generic.Student;
 
 import java.time.LocalDate;
 

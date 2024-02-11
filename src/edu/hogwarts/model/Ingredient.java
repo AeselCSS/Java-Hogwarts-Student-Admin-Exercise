@@ -1,4 +1,4 @@
-package edu.hogwarts;
+package edu.hogwarts.model;
 
 public class Ingredient extends TeachingMaterial {
     private String name;

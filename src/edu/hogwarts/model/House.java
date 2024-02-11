@@ -1,9 +1,13 @@
-package edu.hogwarts;
+package edu.hogwarts.model;
 
 public class House {
     private String name;
     private String founder;
     private String[] colors;
+    private static final House GRYFFINDOR = new House("Gryffindor", "Godric Gryffindor", "scarlet", "gold");
+    private static final House HUFFLEPUFF = new House("Hufflepuff", "Helga Hufflepuff", "yellow", "black");
+    private static final House RAVENCLAW = new House("Ravenclaw", "Rowena Ravenclaw", "blue", "silver");
+    private static final House SLYTHERIN = new House("Slytherin", "Salazar Slytherin", "green", "silver");
 
     public House(String name, String founder, String... colors) {
         this.name = name;
@@ -13,6 +17,22 @@ public class House {
 
     public House() {
 
+    }
+
+    public static House getGryffindor() {
+        return GRYFFINDOR;
+    }
+
+    public static House getHufflepuff() {
+        return HUFFLEPUFF;
+    }
+
+    public static House getRavenclaw() {
+        return RAVENCLAW;
+    }
+
+    public static House getSlytherin() {
+        return SLYTHERIN;
     }
 
     public String getName() {
@@ -45,10 +65,6 @@ public class House {
         for (String color : colors) {
             colorsString.append(color).append(", ");
         }
-        return "House {\n" +
-                "name='" + name + '\'' + "\n" +
-                ", founder='" + founder + '\'' + "\n" +
-                ", colors=" + colorsString + "\n" +
-                '}';
+        return "House " + name + ", founded by " + getFounder() + ", colors: " + colorsString + "\n";
     }
 }

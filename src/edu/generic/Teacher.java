@@ -1,28 +1,30 @@
-package edu.hogwarts;
+package edu.generic;
+
+import edu.hogwarts.model.EmpType;
 
 import java.time.LocalDate;
 
-public class Teacher extends Person{
-    private empType employment;
+public class Teacher extends Person {
+    private EmpType employment;
     private LocalDate employmentStart;
     private LocalDate employmentEnd;
 
-    public Teacher(){
+    public Teacher() {
         super();
     }
 
-    public Teacher(String fullName, empType employment, LocalDate employmentStart, LocalDate employmentEnd) {
-        super(fullName);
+    public Teacher(String fullName, LocalDate dateOfBirth, EmpType employment, LocalDate employmentStart, LocalDate employmentEnd) {
+        super(fullName, dateOfBirth);
         this.employment = employment;
         this.employmentStart = employmentStart;
         this.employmentEnd = employmentEnd;
     }
 
-    public empType getEmployment() {
+    public EmpType getEmployment() {
         return employment;
     }
 
-    public void setEmployment(empType employment) {
+    public void setEmployment(EmpType employment) {
         this.employment = employment;
     }
 

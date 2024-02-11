@@ -1,4 +1,7 @@
-package edu.hogwarts;
+package edu.hogwarts.model;
+
+import edu.generic.Student;
+import edu.generic.Teacher;
 
 public class Course {
     private Subject subject;
